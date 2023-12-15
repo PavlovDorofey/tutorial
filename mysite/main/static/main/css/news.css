@@ -1,0 +1,39 @@
+.alert-warning {
+    float: left;
+    color: #111111;
+    margin-top: 100px;
+    margin-left: 105px;
+    text-align: center;
+    width: 80%;
+}
+.form.create{
+    margin-left: 60%;
+    width: 500px;
+    margin-top: 50px;
+}
+.anons {
+    text-align: left;
+}
+.text {
+    color: dark;
+    text-align: left;
+}
+.date {
+    color: dark;
+    text-align: left;
+}
+.dfull_text{
+    margin-left: 15px;
+    text-align: left;
+    color: #FF8C69;
+}
+.danons{
+    color: #EFA94A;
+}
+.ddate{
+    color: white;
+    margin-left: 15px;
+    text-align: left;
+}
+
+

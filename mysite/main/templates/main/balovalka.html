@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+{% block title%}Баловалка{% endblock %}
+{% block content%}
+    <p>Баловалка</p>
+    {% load static %}
+    <p><a href="https://google.com"><img src="{% static 'main/img/b1.png' %}" width="50" height="50" ></a></p>
+    <button href="https://google.com">Снимаем пробу</button>
+    <div id="scroll-top">
+        <button><span data-hover="Наверх"><i class="fa fa-arrow-up"></i></span></button>
+    </div>
+{% endblock %}
+

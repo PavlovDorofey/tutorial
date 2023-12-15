@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{% block title%}Новости на сайте{% endblock %}
+{% block content%}
+<div class="features">
+    {% load static %}
+    <h1>Новости на сайте</h1>
+    <p>Привет, ты находишься на новостной странице. Здесь люди делятся фотографиями животных, которые обрели дом, благодаря iNAH</p>
+    {% for elem in news %}
+        <div class="alert alert-warning">
+            <h3>{{ elem.title }}</h3>
+            <div class="anons">
+                <h5>{{ elem.anons }}</h5>
+            </div>
+            <a href="{% url 'news-detail' elem.id %}"><img src="{% static 'main/img/read_more.png' %}" width="50" height="50" alt="Пример"></a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
